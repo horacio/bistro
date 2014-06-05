@@ -44,5 +44,6 @@ group :development do
   gem 'pry-nav'
   gem 'rspec-rails'
   gem 'guard-rspec', require: false
+  gem 'shoulda-matchers'
   gem 'thin'
 end
