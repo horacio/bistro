@@ -42,6 +42,6 @@ group :development do
   gem 'pry'
   gem 'pry-nav'
   gem 'rspec-rails'
-  gem 'guard-rspec'
+  gem 'guard-rspec', require: false
   gem 'thin'
 end
