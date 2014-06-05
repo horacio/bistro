@@ -1,0 +1,16 @@
+div.main {
+  @include outer-container;
+}
+
+nav {
+  @include span-columns(2);
+
+  ul, ol {
+    list-style: none;
+  }
+}
+
+div.contents {
+  @include span-columns(10);
+  @include omega();
+}
