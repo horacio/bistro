@@ -15,6 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 
 group :development do
   gem 'factory_girl_rails'
+  gem 'guard-livereload', require: false
   gem 'guard-rspec', require: false
   gem 'pry'
   gem 'pry-nav'
